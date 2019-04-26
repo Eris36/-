@@ -1,0 +1,155 @@
+/*fonts*/
+@font-face {
+	font-family: 'DINRoundPro';
+	src: url('../fonts/DINRoundPro-Black.eot');
+	src: url('../fonts/DINRoundPro-Black.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/DINRoundPro-Black.woff2') format('woff2'),
+	url('../fonts/DINRoundPro-Black.woff') format('woff'),
+	url('../fonts/DINRoundPro-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Istok+Web');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+/* styles */
+body {
+    min-width: 320px;
+    
+	background: #fff;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #333;
+	cursor: default;
+}
+
+.bg1 {
+    background:url('../img/bg1.jpg') no-repeat;
+    min-height: 600px;
+    min-width: 300px;
+    background-size: cover;
+}
+
+.main_title{
+	font-size: 60px;
+	line-height: 1.03em;
+	color: #7499cd;
+	font-weight: 900;
+	margin: 0 0 0 50px;
+	float: right;
+	letter-spacing: 3px;
+}
+.main_subtitle{
+	float: right;
+	font-size: 25px;
+	color: #53637d;
+	line-height: 1.1em;
+	text-transform: uppercase;
+	margin: 10px 150px 0 0;
+	text-align: right;
+	letter-spacing: 2px;
+}
+
+.win_sale{
+    background: #fff;
+	width: 320px;
+    border: dashed 1px #7499cd;
+    margin-top: 30px;
+	padding: 12px 20px 20px;
+	border-radius: 4px;
+	right: 10px;
+}
+.dashed {
+    border: dashed 1px #7499cd;
+    border-radius: 4px;
+    margin: 0px;
+    
+}
+
+.price_old {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 24pt;
+    color: #53637d;
+}
+.price_new {
+    font-family: 'Baloo', cursive;
+    font-size: 30pt;
+    color:#f373a8;
+}
+
+.button-m {
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	width: 280px;
+	height: 84px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background: #ef6596;
+	font-family: 'DINRoundPro', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 84px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+	transition: background ease-in-out .2s;
+}
+.button-m:hover {
+	background: #fe81ae;
+}
+.button-m:active{
+	top: 2px;
+}
+
+.offer_bull>li{
+    font-size: 18px;
+	color: #53637d;
+	font-weight: 700;
+	padding: 2px 0 2px 0px;
+    margin-bottom: 16px;
+    margin-top: 20px
+}
+.offer_bull>li:nth-child(2){
+	margin-left: 50px;
+}
+.offer_bull>li:nth-child(3){
+	margin-left: 100px;
+}
+.offer_bull>li:nth-child(4){
+	margin-left: 150px;
+}
+.offer_bull>li:last-child{
+	bottom: 0;
+}
+
+.products_count{
+	width: 280px;
+	margin: 15px auto 0;
+	border: 1px solid #7499cd;
+	letter-spacing: normal;
+	font-size: 13px;
+	line-height: 30px;
+	padding: 0 0 0 15px;
+	border-radius: 30px;
+	overflow: hidden;
+}
+.products_count>span{
+	float: right;
+	background: #7499cd;
+	color: #fff;
+	font-weight: 700;
+	padding: 0 12px;
+}
+
+
+ul {
+    list-style-image: url(../img/photo22.png);
+    
+   }
